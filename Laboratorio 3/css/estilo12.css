@@ -1,0 +1,73 @@
+ul {
+  background-color: cornflowerblue;
+  padding: 10px;
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+ul li {
+  background-color: cornsilk;
+  margin: 3px;
+}
+
+ul li ul {
+  background-color: cyan;
+  padding: 10px;
+  list-style-type: circle;
+  list-style-position: outside;
+}
+
+ul li ul li {
+  background-color: darkkhaki;
+  margin: 3px;
+}
+
+ul li ul li ul {
+  background-color: coral;
+  list-style-type: disc;
+  list-style-position: inside;
+  padding: 10px;
+}
+
+ul li ul li ul li {
+  background-color: crimson;
+  color: whitesmoke;
+}
+
+/* Ordenadas */
+
+ol {
+  background-color: cornflowerblue;
+  padding: 10px;
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+ol li {
+  background-color: cornsilk;
+  margin: 3px;
+}
+
+ol li ol {
+  background-color: cyan;
+  padding: 10px;
+  list-style-type: circle;
+  list-style-position: outside;
+}
+
+ol li ol li {
+  background-color: darkkhaki;
+  margin: 3px;
+}
+
+ol li ol li ol {
+  background-color: coral;
+  list-style-type: disc;
+  list-style-position: inside;
+  padding: 10px;
+}
+
+ol li ol li ol li {
+  background-color: crimson;
+  color: whitesmoke;
+}

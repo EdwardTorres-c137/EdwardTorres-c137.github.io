@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Comfortaa";
+}
+
+body {
+  background-color: black;
+}
+
+/* HEADER */
+header .headerimg {
+  max-width: 1440px;
+  height: 453px;
+}
+
+.img1 {
+  width: 1440px;
+  height: 453px;
+}
+
+header .caja1 {
+  background-color: #7381ff;
+  width: 1440px;
+  height: 400px;
+  position: absolute;
+}
+
+.nombre {
+  margin-top: 181.5px;
+  text-align: center;
+  font-family: "Comfortaa";
+}
+
+.cajafrase {
+  background-color: white;
+  /* position: absolute; */
+  width: 1440px;
+  height: 81px;
+  left: 0px;
+  top: 718px;
+  margin-top: 21px;
+  /* font-family: "Condiment"; */
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+}
+
+.frase {
+  width: 500px;
+  height: 55px;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  margin-left: 475px;
+  margin-top: 13px;
+  position: absolute;
+  padding-top: 10px;
+}
+
+.datos {
+  background-color: black;
+}
+
+/* SECTION */
+.fondo {
+  background-color: #072041;
+  position: absolute;
+  width: 1202px;
+  height: 1550px;
+  margin-top: 700px;
+  margin-left: 119px;
+}
+
+.cajadescripcion {
+  margin-top: 58px;
+  margin-left: 175px;
+  margin-right: 175px;
+  background: #4053a6 53%;
+}
+
+.cajadescripcion p {
+  font-family: "Comfortaa";
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 24px;
+}
+
+/* DATOS PERSONALES */
+.datospersonales {
+  width: 1146px;
+  height: 331px;
+  margin-left: -119px;
+  margin-right: 294px;
+  margin-top: 77px;
+  background-color: #7381ff;
+  font-size: 24px;
+}
+
+.datospersonales h3 {
+  padding-left: 119px;
+  padding-top: 46px;
+}
+
+.cajadatospersonales {
+  margin-left: 119px;
+  margin-right: 112px;
+  margin-top: 47px;
+  background-color: white;
+  height: 137px;
+}
+
+.cajadatospersonales p {
+  margin-left: 19px;
+  padding-bottom: 9px;
+}
+
+.cajadatospersonales .dtp1 {
+  padding-top: 19px;
+}
+
+/* TRAYECTORIA ACADEMICA */
+.trayectoriaacademica {
+  width: 1146px;
+  height: 331px;
+  margin-left: 175px;
+  margin-right: 0px;
+  margin-top: 77px;
+  background-color: #7381ff;
+  font-size: 24px;
+}
+
+.trayectoriaacademica h3 {
+  padding-left: 741px;
+  padding-top: 46px;
+  padding-right: 119px;
+  font-size: 24px;
+}
+
+.cajatrayectoria {
+  margin-left: 112px;
+  margin-right: 119px;
+  margin-top: 47px;
+  background-color: white;
+  height: 137px;
+}
+
+.cajatrayectoria .ta1 {
+  padding-top: 42px;
+  padding-left: 155px;
+  padding-right: 19px;
+  text-align: right;
+}
+
+/* EXPERIENCIA */
+.experiencia {
+  width: 1146px;
+  height: 331px;
+  margin-left: -119px;
+  margin-right: 294px;
+  margin-top: 77px;
+  background-color: #7381ff;
+  font-size: 24px;
+}
+
+.experiencia h3 {
+  padding-left: 119px;
+  padding-top: 46px;
+}
+
+.cajaexperiencia {
+  margin-left: 119px;
+  margin-right: 112px;
+  margin-top: 47px;
+  background-color: white;
+  height: 137px;
+}
+
+.cajaexperiencia .exp1 {
+  padding-top: 58px;
+  padding-left: 19px;
+  padding-right: 321px;
+  text-align: left;
+}
+/* EDWARD FOTO */
+.contenedoredward {
+  margin-left: 552.55px;
+  margin-top: -200px;
+}
+
+.edward {
+  width: 335px;
+  height: 341px;
+  position: absolute;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 2250px;
+  background-color: #7381ff;
+  height: 826px;
+  width: 1440px;
+}
+
+/* FORMULARIO */
+form {
+  max-width: 1400px;
+}
+
+.cajaactualizacion {
+  margin-left: 272.5px;
+  margin-top: 50px;
+  height: 82px;
+  width: 895px;
+  background-color: white;
+  position: absolute;
+}
+
+.cajaactualizacion h3 {
+  padding-top: 27px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.cajaform {
+  width: 895px;
+  height: 640px;
+  margin-top: 186px;
+  margin-left: 272.5px;
+  background-color: #072041;
+  position: absolute;
+}
+
+.cajaform .input1 {
+  margin-top: 45px;
+  margin-left: 43px;
+  color: white;
+  width: 272px;
+  height: 27px;
+  font-size: 24px;
+}
+
+.cajaform .input2 {
+  margin-top: 122px;
+  margin-left: 43px;
+  color: white;
+  width: 84px;
+  height: 27px;
+  font-size: 24px;
+}
+
+.cajaform .input3 {
+  margin-top: 122px;
+  margin-left: 43px;
+  color: white;
+  width: 166px;
+  height: 27px;
+  font-size: 24px;
+}
+
+.rellena1 {
+  margin-top: 29px;
+  margin-left: 43px;
+  margin-right: 43px;
+  position: absolute;
+  width: 789px;
+  height: 44px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 29px;
+  font-size: 24px;
+}
+
+.rellena2 {
+  margin-top: 29px;
+  margin-left: 43px;
+  margin-right: 43px;
+  position: absolute;
+  width: 789px;
+  height: 44px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 24px;
+}
+
+.rellena3 {
+  margin-top: 29px;
+  margin-left: 43px;
+  margin-right: 43px;
+  position: absolute;
+  width: 789px;
+  height: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 24px;
+}
+
+.enviar {
+  margin-top: 186px;
+  margin-left: 357.55px;
+  width: 180px;
+  height: 49px;
+  font: 24px;
+}

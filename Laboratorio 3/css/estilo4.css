@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(248, 215, 215);
+}
+.contenedor {
+  background-color: rgb(172, 68, 68);
+}
+.caja1 {
+  background-color: rgb(185, 113, 233);
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(107, 15, 168);
+}
+/* Agregar margenes a cada etiqueta div */
+/* Agregamos margen a la izquierda */
+.caja2 {
+  background-color: rgb(185, 113, 233);
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(107, 15, 168);
+  margin-left: 20px;
+}
+/* Agregamos margen a la derecha */
+.caja3 {
+  background-color: rgb(185, 113, 233);
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(107, 15, 168);
+  margin-right: 20px;
+}
+/* Agregamos margen a la parte superior */
+.caja4 {
+  background-color: rgb(185, 113, 233);
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(107, 15, 168);
+  margin-top: 20px;
+}
+/* Agregamos margen a la parte inferior */
+.caja5 {
+  background-color: rgb(185, 113, 233);
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(107, 15, 168);
+  margin-bottom: 20px;
+}
+/* Agregamos un margen personalizado */
+.caja6 {
+  background-color: rgb(185, 113, 233);
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(107, 15, 168);
+  margin: 20px 80px 30px 10px;
+}
+/* Agregamos al div al medio de todo */
+.caja7 {
+  background-color: rgb(185, 113, 233);
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(107, 15, 168);
+  margin: auto;
+}

@@ -1,0 +1,218 @@
+/* Aplicamos estilos universales */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Aplicamos estilos al body */
+body {
+  font-family: "Open Sans";
+  font-size: 16px;
+}
+
+/* -----------------------------------------------------------CABECERA-------------------------------------------------- */
+/* Aplicamos estilos al contenedor */
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Aplicamos estilos al header */
+header {
+  background: url("/img/foto2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  max-height: 600px;
+}
+
+/* Aplicamos estilo para el nav */
+header nav {
+  margin: 40px 0;
+  text-align: right;
+}
+
+header nav a {
+  margin: 0 20px;
+  padding-bottom: 9px;
+  text-decoration: none;
+  border-bottom: 2px solid grey transparent;
+  color: white;
+}
+
+header nav a:hover {
+  border-bottom: 2px solid #be9524;
+}
+
+/* Aplicamos el estilo al contenedor texto */
+header .contenedortexto {
+  justify-content: center;
+  align-content: center;
+  margin: 190px 0;
+}
+
+header .contenedortexto .texto {
+  border: 2px solid grey;
+  border-radius: 3px;
+  text-align: center;
+  padding: 20px 60px;
+}
+
+header .contenedortexto .texto h1,
+header .contenedortexto .texto h2 {
+  color: white;
+  font-weight: bolder;
+  margin: 0;
+}
+
+header .contenedortexto .texto .nombre {
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+header .contenedortexto .texto .profesion {
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+/* --------------------------------------------------------FIN CABECERA-------------------------------------------------- */
+/* -----------------------------------------------------------CUERPO-------------------------------------------------- */
+/* -------------------------------------------------------ACERCA DE-------------------------------------------------- */
+.principal .acercade {
+  text-align: 0;
+}
+
+.principal .acercade .foto {
+  margin-top: -60px;
+}
+
+.principal .acercade .foto img {
+  border-radius: 50%;
+  vertical-align: top;
+  border: 5px solid grey;
+  width: 25%;
+  height: 10%;
+}
+
+.principal .acercade .texto {
+  font-weight: 600px;
+  width: 80%;
+  margin: 40px auto 60px auto;
+}
+
+.principal .acercade .texto .titulo {
+  font-size: 35px;
+  margin-bottom: 40px;
+  font-weight: bolder;
+  color: #be9524;
+}
+
+/* -----------------------------------------------------FIN ACERCA DE-------------------------------------------------- */
+/* -----------------------------------------------------TRABAJOS-------------------------------------------------- */
+.principal .trabajos {
+  background: #f0f0f0;
+  padding: 60px 0;
+}
+
+.principal .trabajos .titulo {
+  font-size: 35px;
+  margin-bottom: 60px;
+  font-weight: bolder;
+  color: #431382;
+  text-align: center;
+}
+
+.principal .trabajos .contenedortrabajos {
+  justify-content: space-between;
+}
+
+.principal .trabajos .contenedortrabajos .trabajo {
+  width: 25%;
+  margin-bottom: 40px;
+}
+
+.principal .trabajos .contenedortrabajos .trabajo .imagen {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.principal .trabajos .contenedortrabajos .trabajo .imagen img {
+  vertical-align: top;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.principal .trabajos .contenedortrabajos .trabajo .descripcion {
+  text-align: center;
+}
+
+.principal .trabajos .contenedortrabajos .trabajo .descripcion .nombre {
+  font-weight: bolder;
+  color: #431382;
+  margin-bottom: 10px;
+}
+
+.principal .trabajos .contenedortrabajos .trabajo .descripcion .categoria {
+  font-size: 15px;
+  color: dimgray;
+}
+
+/* ---------------------------------------------------FIN TRABAJOS-------------------------------------------------- */
+/* -----------------------------------------------------FIN DEL CUERPO-------------------------------------------------- */
+/* -----------------------------------------------------PIE-------------------------------------------------- */
+footer .contactanos {
+  padding: 60px;
+}
+
+footer .contactanos .titulo {
+  font-size: 35px;
+  margin-bottom: 60px;
+  font-weight: bolder;
+  color: #431382;
+  text-align: center;
+}
+
+footer .contactanos .formulario {
+  justify-content: space-between;
+}
+
+footer .redessociales {
+  background: #090637;
+  padding: 60px 0;
+}
+
+footer .redessociales .contenedor {
+  justify-content: center;
+}
+
+footer .redessociales .contenedor a {
+  color: white;
+  text-align: center;
+  width: 100px;
+  font-size: 30px;
+  padding: 15px 0;
+  margin: 0 20px;
+  border-radius: 3px;
+}
+
+footer .redessociales .contenedor .facebook:hover {
+  background: #3b5998;
+}
+
+footer .redessociales .contenedor .instagram:hover {
+  background: #c13584;
+}
+
+footer .redessociales .contenedor .youtube:hover {
+  background: #ff0000;
+}
+
+footer .redessociales .contenedor .twitter:hover {
+  background: #1da1f2;
+}
+
+footer .redessociales .contenedor .github:hover {
+  background: #6e5494;
+}
+
+/* -----------------------------------------------------PIE-------------------------------------------------- */

@@ -1,0 +1,92 @@
+.contenedor {
+  background-color: black;
+}
+
+/* Generamos un degradado desde abajo hacia arriba */
+.degradado1 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(to bottom, red, white);
+}
+
+/* Generamos un degradado desde izquierda hacia la derecha */
+.degradado2 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(to left, red, white);
+}
+
+/* Generamos un degradado desde derecha hacia la izquierda */
+.degradado3 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(to right, red, white);
+}
+
+/* Generamos un degradado desde arriba hacia la abajo */
+.degradado4 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(to top, red, white);
+}
+
+/* Generamos un degradado de muchos colores de arriba hacia abajo */
+.degradado5 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(
+    to top,
+    red,
+    orange,
+    yellow,
+    green,
+    blue
+  );
+}
+
+/* Generamos un degradado de muchos colores de arriba hacia abajo */
+.degradado6 {
+  width: 500px;
+  height: 250px;
+  background: repeating-radial-gradient(red, orange, yellow, green, blue);
+}
+
+/* Aplicamos los degradados utilizando angulos de inclinación */
+.contenedor {
+  background-color: black;
+}
+
+/* Generamos un degradado desde abajo hacia arriba */
+.degradado7 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(180deg, red, white);
+}
+
+/* Generamos un degradado desde izquierda hacia la derecha */
+.degradado8 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(-90deg, red, white);
+}
+
+/* Generamos un degradado desde derecha hacia la izquierda */
+.degradado9 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(90deg, red, white);
+}
+
+/* Generamos un degradado desde arriba hacia la abajo */
+.degradado10 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(0deg, red, white);
+}
+
+/* Generamos un degradado con un agulo de inclinacion especifico */
+.degradado11 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(70deg, blue, yellow);
+}

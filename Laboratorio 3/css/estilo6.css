@@ -1,0 +1,29 @@
+body {
+  background-color: sandybrown;
+}
+/* Definiendo el ancho y el alto de una caja */
+.contenedor {
+  background-color: seagreen;
+  width: 1024px;
+  height: 768px;
+  margin: auto;
+}
+.caja1 {
+  background-color: hotpink;
+  width: 350px;
+  height: 110px;
+  margin-left: 150px;
+}
+.caja2 {
+  background-color: rgb(85, 220, 238);
+  width: 450px;
+  height: 200px;
+  margin-top: 250px;
+  margin-right: 80px;
+}
+.caja3 {
+  background-color: rgb(153, 255, 105);
+  width: 150px;
+  height: 110px;
+  margin: auto;
+}
