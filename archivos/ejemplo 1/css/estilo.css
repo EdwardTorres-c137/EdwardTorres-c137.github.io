@@ -20,7 +20,7 @@ body {
 
 /* Aplicamos estilos al header */
 header {
-  background: url("/img/foto2.jpg");
+  background: url("/archivos/ejemplo 1/img/foto2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   max-height: 600px;
@@ -79,7 +79,7 @@ header .contenedortexto .texto .profesion {
 /* -----------------------------------------------------------CUERPO-------------------------------------------------- */
 /* -------------------------------------------------------ACERCA DE-------------------------------------------------- */
 .principal .acercade {
-  text-align: 0;
+  text-align: center;
 }
 
 .principal .acercade .foto {
