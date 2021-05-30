@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overflow-y: scroll;
 }
 
 ul {
@@ -8,9 +9,10 @@ ul {
   padding: 0;
   width: 15%;
   background-color: gainsboro;
-  position: fixed;
+  /* position: fixed; */
   overflow: auto;
   border: 1px solid #555;
+  
 }
 
 li {
