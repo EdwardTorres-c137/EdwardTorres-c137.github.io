@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Parte 3</title>
+    <script type="text/javascript">
+        // Estructuras Lógicas
+        // Se clasifican en:
+        // Condicionales
+        // Selectivas
+        // Repetitivas
+        // Condicionales
+        // Condicion --> Evaluacion --> Verdadero o Falso
+        // Ejemplo:
+        // 7<5 --> Falso
+        // Estructuras Condicionales
+        // Simples
+        // Dobles
+        // Anidadas
+        // Condicionales Simples -> Devuelven un valor siempre y cuando la condicion sea verdadera
+        // Sintaxis
+        // if(condicion){
+        //     ....programa....
+        // }
+
+        // Ejemplo 1
+        // Desarrollar una aplicacion que permita ingresar 3 notas y luego calcular el promedio
+        // si el promedio es igual o mayor a 13 se debe mostrar un mensaje indicando "Aprobado"
+        // ¿Cuantas varaibles necesito?
+        // 5
+        // ¿Que tipo de datos necesito?
+        // Real y texto
+        // ¿Cuales son las variables que necesito?
+        // n1, n2, n3, prom, men
+        // ¿Que variables voy a leer?
+        // n1, n2, n3
+        // Dediniendo e Inicializando variables
+        var n1=0, n2=0, n3=0, prom=0, men="";
+        // Capturando valores
+        n1=parseFloat(prompt("Ingrese la nota 1:"));
+        n2=parseFloat(prompt("Ingrese la nota 2:"));
+        n3=parseFloat(prompt("Ingrese la nota 3:"));
+        // Realizando operaciones
+        prom=(n1+n2+n3)/3;
+        // Condicion
+        if(prom>=3){
+            men="Aprobado";
+        }
+        // Mostrando resultados
+        alert("El promedio es: "+prom);
+        alert(men);
+
+        // Ejemplo 2
+        // Desarrollar una aplicacion que permita calcular el sueldo final de un trabajador si
+        // se sabe que sueldo basico se ingresa, ademas si el trabajador pertenece a la categoría
+        // 3 se le calculara una bonificacion del 7% y un descuento del 5% en base al sueldo basico
+        // ¿Cuantas varaibles necesito?
+        // 5
+        // ¿Que tipo de datos necesito?
+        // Real y entero
+        // ¿Cuales son las variables que necesito?
+        // sb, bon, des, sf, cat
+        // ¿Que variables voy a leer?
+        // sb, cat
+        // Dediniendo e Inicializando variables
+        var sb=0, bon=0, des=0, sf=0, cat=0;
+        // Capturando valores
+        sb=parseFloat(prompt("Ingrese el sueldo basico"));
+        cat=parseFloat(prompt("Ingrese la categoria"));
+        // Condicion
+        if(cat==3){
+            bon=sb*0.07;
+            des=sb*0.05;
+        }
+        // Realizando operaciones
+        sf=sb+bon-des;
+        // Mostrando resultados
+        document.write("El sueldo basico es: "+sb+"<br>");
+        document.write("El bonificacion es: "+bon+"<br>");
+        document.write("El descuento es: "+des+"<br>");
+        document.write("El sueldo final es: "+sf+"<br>");
+        document.write("<hr>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

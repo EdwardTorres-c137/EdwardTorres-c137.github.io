@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Parte 4</title>
+    <script type="text/javascript">
+        // Funciones y procedimientos en Javascript
+        // Los procedimientos y funciones permiten agrupar código de forma modular
+        // de talmaneraque puedo tener bloque de código que realicen ciertas acciones
+        // Funciones
+        // Las funciones devuelven siempre un valor
+        // sintaxis
+        // function NombreFuncion(parametros){
+        //     ...programa.... 
+        //     return valor;
+        // }
+        // Parametros
+        // Son valores que pueden o no estar presente en la funcion
+        // Son valores que necesita la funcion para realizar en caso esten presentes
+        // Return
+        // Es el valor que va a devolver la funcion, este valor sera importante porque define
+        // el tipo de dato de la funcion
+
+        // Ejemplo 1
+        // Desarrollar una aplicacion que te permita ingresar dos numeros y luego permita calcular 
+        // las operaciones basicas
+        // ¿Cuantas variables necesito?
+        // 6
+        // ¿Que tipo de datos necesito?
+        // Real
+        // ¿Cuales son las variables que necesito?
+        // n1, n2, sum, res, mul, div
+        // ¿Que variables voy a leer?
+        // n1, n2
+        // Declarando funciones
+        function CalculaSuma(num1,num2){
+            return num1+num2;
+        }
+        function CalculaResta(num1,num2){
+            return num1-num2;
+        }
+        function CalculaMultiplicación(num1,num2){
+            return num1*num2;
+        }
+        function CalculaDivisión(num1,num2){
+            return num1/num2;
+        }
+        // Definiendo e Inicializando variables
+        var n1=0, n2=0, sum=0, res=0, mul=0, div=0;
+        // Capturando valores
+        n1=parseFloat(prompt("Ingrese el numero 1:"));
+        n2=parseFloat(prompt("Ingrese el numero 2:"));
+        // Llamando a las funciones para calcular
+        sum=CalculaSuma(n1,n2);
+        res=CalculaResta(n1,n2);
+        mul=CalculaMultiplicación(n1,n2);
+        div=CalculaDivisión(n1,n2);
+        // Mostrando resultados
+        document.write("La suma es: "+sum+"<br>");
+        document.write("La resta es: "+res+"<br>");
+        document.write("La multiplicacion es: "+mul+"<br>");
+        document.write("La division es: "+div+"<br>");
+        document.write("<hr>");
+        document.write("<hr>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

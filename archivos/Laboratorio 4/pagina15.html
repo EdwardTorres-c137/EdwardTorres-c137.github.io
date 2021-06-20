@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Parte 4</title>
+    <script type="text/javascript">
+        // Ejemplo 3
+        // Desarrollar una aplicacion que permita ingresar tu edad y en base a tu edad mostrar un mensaje indicando
+        // "Eres mayor de edad" si tu edad es mayor o igual a 18, en caso contrario mostrar un mensaje indicando
+        // "Eres menor de edad"
+        // ¿Cuantas variables necesito?
+        // 2
+        // ¿Que tipo de datos necesito?
+        // Entero y texto
+        // ¿Cuales son las variables que necesito?
+        // edad, men
+        // ¿Que variables voy a leer?
+        // edad
+        // Declarando funciones
+        function MostrarMensaje(ed){
+            var m="";
+            if(ed>=18){
+                m="Eres mayor de edad";
+            }else{
+                m="Eres menor de edad";
+            }
+            return m;
+        }
+
+        // Creamos un procedimiento para mostrar el mensaje
+        function Mostrar(){
+            // Declaramos variables para los controles
+            var txtEdad=document.getElementById("txtEdad");
+            var txtMen=document.getElementById("txtMen");
+            // Validando controles
+            if (txtEdad.value==""){
+                alert("Ingresa tu edad");
+                txtEdad.focus();
+            }else{
+                // Declarando e inicializando variables
+                var edad=0, men="";
+                // Capturando valores
+                edad=parseFloat(txtEdad.value);
+                // Llamamos a la funcion para mostrar el mensaje
+                men=MostrarMensaje(edad);
+                // Mostramos resultados
+                txtMen.value=men;
+            }
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <label for="txtEdad">Edad:</label>
+        <input type="text" name="txtEdad" id="txtEdad">
+        <br>
+        <label for="txtMen">Mensaje</label>
+        <input type="text" name="txtMen" id="txtMen">
+        <br>
+        <input type="button" value="Mostrar" id="btnMostrar" name="btnMostrar" onclick="Mostrar()">
+        <input type="reset" value="Limipar" id="btnLimpiar" name="btnLimpiar">
+    </form>
+</body>
+</html>

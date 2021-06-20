@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Parte 4</title>
+    <script type="text/javascript">
+        // Trabajo con formularios
+        // Cuando queremos cambiar y dejar de utilizar los alert y los document podemos
+        // utilizar formularios <form></form> para poder ingresar, mostrar, realizar operaciones, etc
+        // Es importante que los controles que se agreguen al formulario siempre tengan dos atributos 
+        // importantes: id y name
+        // Controles dentro del formulario
+        // Label --> Etiqueta --> permite escribir un valor en formulario, eso quiere decir que sirve
+        // para mostrar texto en el formulario
+        // <label for=""></label>
+        // for="": indica a que control esta relacionado el label
+        // Input: Text
+        // Input: Text --> Caja de texto, permite ingresar y mostrar valores
+        // Todo valor que se ingrese en la caja de texto sera convertido en texto automaticamente
+        // para recuperar algun valor numerico es necesario hacer conversiones utilizando parseInt o parseFloat
+        // <input type="text" name="" id="">
+        // Input: Button
+        // Input: Button --> boton --> permite ejecutar una accion, por lo general este control va a llamar al
+        // Javascript para que tenga alguna acción específica
+
+        // Ejemplo 1
+        // Desarrollar una aplicacion que te permita ingresar dos numeros y luego permita calcular 
+        // las operaciones basicas
+        // ¿Cuantas variables necesito?
+        // 6
+        // ¿Que tipo de datos necesito?
+        // Real
+        // ¿Cuales son las variables que necesito?
+        // n1, n2, sum, res, mul, div
+        // ¿Que variables voy a leer?
+        // n1, n2
+        // Declarando funciones
+        function CalculaSuma(num1,num2){
+            return num1+num2;
+        }
+        function CalculaResta(num1,num2){
+            return num1-num2;
+        }
+        function CalculaMultiplicación(num1,num2){
+            return num1*num2;
+        }
+        function CalculaDivisión(num1,num2){
+            return num1/num2;
+        }
+         // Definiendo e Inicializando variables
+        var n1=0, n2=0, sum=0, res=0, mul=0, div=0;
+        // Capturando valores
+        n1=parseFloat(document.getElementById("txtN1").value);
+        n2=parseFloat(document.getElementById("txtN2").value);
+        // Llamando a las funciones para calcular
+        sum=CalculaSuma(n1,n2);
+        res=CalculaResta(n1,n2);
+        mul=CalculaMultiplicación(n1,n2);
+        div=CalculaDivisión(n1,n2);
+
+        // Creamos un procedimiento para llamar a las funciones
+        function Calcular(){
+            if (document.getElementById("txtN1").value==""){
+                alert("Ingrese el numero 1");
+                document.getElementById("txtN1").focus();
+            }else if (document.getElementById("txtN2").value==""){
+                alert("Ingrese el numero 2");
+                document.getElementById("txtN2").focus();
+            }else{
+                // Definiendo e Inicializando variables
+                var n1=0, n2=0, sum=0, res=0, mul=0, div=0;
+                // Capturando valores
+                n1=parseFloat(document.getElementById("txtN1").value);
+                n2=parseFloat(document.getElementById("txtN2").value);
+                // Llamando a las funciones para calcular
+                sum=CalculaSuma(n1,n2);
+                res=CalculaResta(n1,n2);
+                mul=CalculaMultiplicación(n1,n2);
+                div=CalculaDivisión(n1,n2);
+                // Mostrando resultados
+                document.getElementById("txtSum").value=sum;
+                document.getElementById("txtRes").value=res;
+                document.getElementById("txtMul").value=mul;
+                document.getElementById("txtDiv").value=div;
+            }
+        }
+    </script>
+</head>
+<body>
+    
+    <form action="">
+        <label for="txtN1">Numero 1:</label>
+        <input type="text" name="txtN1" id="txtN1"><br>
+        <label for="txtN4">Numero 2:</label>
+        <input type="text" name="txtN2" id="txtN2"><br>
+        <label for="txtSum">Suma:</label>
+        <input type="text" name="txtSum" id="txtSum"><br>
+        <label for="txtRes">Resta:</label>
+        <input type="text" name="txtRes" id="txtRes"><br>
+        <label for="txtMul">Multiplicacion:</label>
+        <input type="text" name="txtMul" id="txtMul"><br>
+        <label for="txtDiv">Division:</label>
+        <input type="text" name="txtDiv" id="txtDiv"><br>
+        <input type="button" onclick="Calcular()" name="btnCalcular" id="btnCalcular" value="Calcular"> 
+        <input type="reset" name="btnLimpiar" id="btnLimpiar" value="Limpiar"> 
+    </form>
+</body>
+</html>
