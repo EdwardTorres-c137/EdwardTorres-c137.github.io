@@ -1,39 +1,60 @@
 body {
-    margin: 0;
-    overflow-y: scroll;
-  }
+  margin: 0;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 44%, rgba(0,212,255,1) 100%);
+  font-family: 'Raleway', sans-serif;
+}
+
+div{
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 100px;
+  padding: 0;
+  width: 300px;
+  background-color: gainsboro;
+  /* position: fixed; */
+  overflow: auto;
+  border: 1px solid #555;
   
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 15%;
-    background-color: gainsboro;
-    /* position: fixed; */
-    overflow: auto;
-    border: 1px solid #555;
-    
-  }
-  
-  li {
-    text-align: center;
-    border: 1px solid #555;
-  }
-  
-  li a {
-    display: block;
-    color: black;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-  
-  li a.activo {
-    background-color: green;
-    color: white;
-  }
-  
-  li a:hover:not(.activo) {
-    background-color: #555;
-    color: white;
-  }
+}
+
+li {
+  text-align: center;
+  border: 1px solid #555;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.activo {
+  background-color: #053F5C;
+  color: white;
+}
+
+li a:hover:not(.activo) {
+  background-color: #555;
+  color: white;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h2{
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+}
+
   

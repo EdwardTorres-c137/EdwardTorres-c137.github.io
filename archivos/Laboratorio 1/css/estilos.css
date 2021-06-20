@@ -1,3 +1,10 @@
+body{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 44%, rgba(0,212,255,1) 100%);
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -20,7 +27,7 @@ li a {
 }
 
 li a.activo {
-  background-color: green;
+  background-color: #053F5C;
   color: white;
 }
 
