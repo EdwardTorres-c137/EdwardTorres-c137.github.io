@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    overflow-y: scroll;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: gainsboro;
+    /* position: fixed; */
+    overflow: auto;
+    border: 1px solid #555;
+    
+  }
+  
+  li {
+    text-align: center;
+    border: 1px solid #555;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.activo {
+    background-color: green;
+    color: white;
+  }
+  
+  li a:hover:not(.activo) {
+    background-color: #555;
+    color: white;
+  }
+  
