@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -138,4 +139,146 @@ select:checked {
 
 #btnRegistrar:hover {
     cursor: pointer;
+=======
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background: rgb(254,111,47);
+    background: linear-gradient(90deg, rgba(254,111,47,1) 0%, rgba(195,98,204,1) 50%, rgba(5,1,171,1) 100%);
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    display: flexbox;
+}
+
+header {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.divfor {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    width: 700px;
+    height: 465px;
+    margin-top: 50px;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    background-color: white;
+    border-radius: 8px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+/* LABEL */
+label {
+    width: 300px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+
+#txtNom {
+    margin-top: 20px;
+    margin-left: 35px;
+    padding: 10px 15px;
+    width: 600px;
+    background-color: white;
+    border-bottom: 3px solid #3515C9;
+}
+
+#txtPre {
+    margin-top: 20px;
+    margin-left: 35px;
+    padding: 10px 15px;
+    width: 600px;
+    background-color: white;
+    border-bottom: 3px solid #3515C9;
+}
+
+#cboCategoria {
+    margin-top: 20px;
+    margin-left: 35px;
+    padding: 10px 15px;
+    width: 630px;
+    height: 53px;
+    background-color: white;
+    border-bottom: 3px solid #3515C9;
+}
+
+#txtCantidad {
+    margin-top: 20px;
+    margin-left: 35px;
+    padding: 10px 15px;
+    width: 600px;
+    background-color: white;
+    border-bottom: 3px solid #3515C9;
+}
+
+#btnRegistrar {
+    margin-left: 100px;
+    margin-top: 35px;
+    font-size: 22px;
+    height: 40px;
+    background-color: #3515C9 ;
+    color: white;
+    border-radius: 4px;
+}
+
+
+
+input, select {
+    width: 500px;
+    height: 30px;
+    /* margin-left: 30%; */
+    border: 0px;
+    border-radius: 1px;
+    opacity: 100%;
+    font-size: 18px;
+    background: inherit;
+}
+
+select:checked {
+    border: 0px;
+}
+
+
+.divtb {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#tbRegistro {
+    width: 800px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#tbRegistro th {
+    margin-right: 10px;
+    text-align: center;
+}
+
+#btnRegistrar:hover {
+    cursor: pointer;
+>>>>>>> 9f4f49cab135d107e740a60a02a6b81a43f3b1b0
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 [
 {
@@ -10,4 +11,18 @@
     "apellido":"osorio morales",
     "correo":"joseocosrio0@gmail.com"
 }
+=======
+
+[
+{
+    "nombre":"edward frans",
+    "apellido":"torres gutierrez",
+    "correo":"edwardftg80@gmail.com"
+},
+{
+    "nombre":"jose daniel",
+    "apellido":"osorio morales",
+    "correo":"joseocosrio0@gmail.com"
+}
+>>>>>>> 9f4f49cab135d107e740a60a02a6b81a43f3b1b0
 ]

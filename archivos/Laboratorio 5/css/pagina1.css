@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background: rgb(254,111,47);
+    background: linear-gradient(90deg, rgba(254,111,47,1) 0%, rgba(195,98,204,1) 50%, rgba(5,1,171,1) 100%);
+}
+
+header {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.form {
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    color: white;
+}
+
+#txtNom {
+    margin-top: 20px;
+    padding: 10px 15px;
+    width: 600px;
+    background-color: white;
+    border: none;
+    border-bottom: 3px solid #3515C9;
+    border-radius: 5px;
+}
+
+#txtApe {
+    margin-top: 20px;
+    padding: 10px 15px;
+    width: 600px;
+    background-color: white;
+    border: none;
+    border-bottom: 3px solid #3515C9;
+    border-radius: 5px;
+}
+
+#txtCor {
+    margin-top: 20px;
+    padding: 10px 15px;
+    width: 600px;
+    background-color: white;
+    border: none;
+    border-bottom: 3px solid #3515C9;
+    border-radius: 5px;
+}
+
+#btnRegistrar {
+    width: 40%;
+    margin-top: 35px;
+    font-size: 22px;
+    height: 40px;
+    background-color: #3515C9 ;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+#tbRegistro {
+    width: 800px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+}

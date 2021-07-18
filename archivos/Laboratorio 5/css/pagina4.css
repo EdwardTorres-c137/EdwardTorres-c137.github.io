@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -34,4 +35,42 @@ body {
 
 .p p {
     color: white;
+=======
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; */
+    /* height: 100vh; */
+    background: rgb(66,71,255);
+    background: linear-gradient(151deg, rgba(66,71,255,1) 0%, rgba(56,255,87,1) 100%);
+}
+
+.titulo {
+    /* display: flex; */
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 25%;
+}
+
+.titulo h1 {
+    color: white;
+}
+
+.p {
+    text-align: center;
+    margin-bottom: 25%;
+}
+
+.p p {
+    color: white;
+>>>>>>> 9f4f49cab135d107e740a60a02a6b81a43f3b1b0
 }
