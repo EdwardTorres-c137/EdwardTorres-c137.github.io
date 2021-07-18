@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 6fr 5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.dv-title {
+    width: 95vw;
+    padding-left: 4vw;
+    padding-top: 4vh;
+    padding-bottom: 1vh;
+    background-color: #063558;
+    color: white;
+}
+
+.dv-registro {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 95vw;
+    display: flex;
+    padding-left: 4vw;
+    padding-top: 5vh;
+    padding-bottom: 4vh;
+    background-color: peachpuff;
+    color: black;
+}
+
+
+.contenedor-label div{
+    width: 30vw;
+    height: 3vh;
+    font-size: 20px;
+    padding: 10px 0px;
+    background-color: peachpuff;
+}
+
+.input-n {
+    width: 30vw;
+    height: 3vh;
+    font-size: 20px;
+    padding: 10px 14px;
+    border: none;
+    background-color: peachpuff;
+}
+
+#cboDistrito {
+    height: 5vh;
+    width: 30vw;
+    border: none;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px 12px;
+    min-height: 5vh;
+    max-height: 5vh;
+    box-sizing:unset;
+    display: unset;
+    background-color: peachpuff;
+}
+
+#cboSexo {
+    height: 5vh;
+    border: none;
+    display: flex;
+    align-items: center;
+    min-height: 6vh;
+    max-height: 6vh;
+}
+
+#cboSexo label{
+    padding-left: 0.5vw;
+}
+#rbFem, #rbOtr {
+    margin-left: 1vw;
+}
+
+#chkEstado {
+    height: 5vh;
+    border: none;
+    display: flex;
+    align-items: center;
+    min-height: 6vh;
+    max-height: 6vh;
+}
+
+#chkEstado label {
+    padding-left: 0.5vw;
+}
+
+#btnRegistrar {
+    margin: 2vh 0px;
+    width: 20vw;
+    height: 5vh;
+    padding: 4px 0px;
+    border: none;
+    border-radius: 2px;
+    background-color: #063558;
+    color: white;   
+    font-size: 20px;
+}
+
+#btnRegistrar:hover {
+    cursor: pointer;
+}
+
+#btnActualizar {
+    margin: 2vh 0px;
+    width: 20vw;
+    height: 5vh;
+    padding: 4px 0px;
+    border: none;
+    border-radius: 2px;
+    background-color: #063558;
+    color: white;   
+    font-size: 20px;
+}
+
+#btnActualizar:hover {
+    cursor: pointer;
+}
+
+#btnLimpiar {
+    margin: 2vh 0px;
+    width: 20vw;
+    height: 5vh;
+    padding: 4px 0px;
+    border: none;
+    border-radius: 2px;
+    background-color: #063558;
+    color: white;   
+    font-size: 20px;
+}
+
+#btnLimpiar:hover {
+    cursor: pointer;
+}
+
+.dv-tabla {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+    background-color: peachpuff;
+}
+
+#tbAlumno {
+    justify-content: center;
+}
+
+#tbAlumno th {
+    border-bottom: 2px solid black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#tbAlumno tbody {
+    margin-top: 10px;
+}

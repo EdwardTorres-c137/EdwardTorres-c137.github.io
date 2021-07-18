@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="/css/pagina10.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <title>Firebase - Parte 2</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Ingreso al sistema</h1>
+        <form action="" class="form">
+            <label for="txtCor"></label>
+            <input type="text" name="txtCor" id="txtCor" placeholder="Ingrese su correo">
+            <br>
+            <label for="txtCon"></label>
+            <input type="password" name="txtCon" id="txtCon" placeholder="Ingrese su contraseña">
+            <br>
+            <input type="button" value="Ingresar" id="btnIngresar" name="btnIngresar">
+        </form>
+    </div>
+    
+    <script src="/js/bibliotecaingresousuario.js" type="text/javascript"></script>
+
+    
+
+    <!-- Bibliotecas de Firebase -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-analytics.js"></script>
+
+    
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+    apiKey: "AIzaSyA6gDQRtJeJBSlXIAe4XMx0yYb_eCO9Hd4",
+    authDomain: "proyectoweb-b7d0c.firebaseapp.com",
+    projectId: "proyectoweb-b7d0c",
+    storageBucket: "proyectoweb-b7d0c.appspot.com",
+    messagingSenderId: "598596283902",
+    appId: "1:598596283902:web:178d77b7074f7042e1a4af",
+    measurementId: "G-5H152M88VB"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    // creamos una constante para las opcionesde autentificacion
+const auth=firebase.auth();
+    </script>
+</body>
+</html>
