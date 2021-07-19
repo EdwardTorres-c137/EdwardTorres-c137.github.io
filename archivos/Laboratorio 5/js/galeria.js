@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const abrirmodal=document.querySelectorAll("[data-open]");
 const cerrarmodal=document.querySelectorAll("[data-close]");
 const isVisible="is-visible";
@@ -21,28 +20,4 @@ document.addEventListener("click", (e)=>{
     {
         document.querySelector(".modal is-visible").classList.remove(isVisible);
     }
-=======
-const abrirmodal=document.querySelectorAll("[data-open]");
-const cerrarmodal=document.querySelectorAll("[data-close]");
-const isVisible="is-visible";
-
-for(const modal of abrirmodal){
-    modal.addEventListener("click", function(){
-        var modalid=this.dataset.open;
-        document.getElementById(modalid).classList.add(isVisible);
-    });
-}
-
-for(const modal of cerrarmodal){
-    modal.addEventListener("click", function(){
-        this.parentElement.parentElement.parentElement.classList.remove(isVisible);
-    });
-}
-
-document.addEventListener("click", (e)=>{
-    if(e.target==document.querySelector(".modal .is-visible"))
-    {
-        document.querySelector(".modal is-visible").classList.remove(isVisible);
-    }
->>>>>>> 9f4f49cab135d107e740a60a02a6b81a43f3b1b0
 });
